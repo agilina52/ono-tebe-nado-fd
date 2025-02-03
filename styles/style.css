@@ -47,8 +47,6 @@ body {
 .header__address {
   justify-self: end;
   width: 240px;
-  font-size: 18px;
-  line-height: 135%;
   margin-top: -2px;
 }
 
