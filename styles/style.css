@@ -34,17 +34,22 @@ body {
   width: 135px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
-  justify-self: end;
-  width: 240px;
   font-size: 18px;
   line-height: 135%;
   font-family: Raleway, sans-serif;
   font-style: normal;
-  margin-top: -2px;
   text-underline-offset: 0.22em;
+}
+
+.header__address {
+  justify-self: end;
+  width: 240px;
+  font-size: 18px;
+  line-height: 135%;
+  margin-top: -2px;
 }
 
 .header__address__place {
@@ -282,16 +287,9 @@ body {
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
   justify-self: start;
   width: 264px;
-  font-size: 18px;
-  line-height: 135%;
-  font-family: Raleway, sans-serif;
-  font-style: normal;
   margin-left: 51px;
-  text-underline-offset: 0.22em;
 }
 
 .footer__menu {
