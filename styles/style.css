@@ -168,7 +168,7 @@ body {
 
 .card {
   position: relative;
-  height: 596px;
+  min-height: 596px;
   padding: 48px 40px;
   color: #f5f5f5f5;
   background-position: center;
@@ -266,7 +266,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  height: 180px;
+  padding-bottom: 82px;
 }
 
 .footer__address {
